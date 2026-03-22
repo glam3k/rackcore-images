@@ -1,3 +1,4 @@
-# Rootfs ext4 images are large binary artifacts (1–2.4 GB).
+# Rootfs images are large binary artifacts (1–2.4 GB per image).
 # They are distributed as GitHub Release assets, not committed to git.
-rootfs/**/*.ext4
+rootfs/ext4/*.ext4
+rootfs/oci/*.tar
